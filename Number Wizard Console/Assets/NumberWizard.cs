@@ -19,7 +19,7 @@ public class NumberWizard : MonoBehaviour
     {
         max = 1000;
         min = 1;
-        guess = 500;
+        guess = (max + min) / 2;
 
         Debug.Log("Welcome to number wizard");
         Debug.Log("Pick a number without telling it...");
